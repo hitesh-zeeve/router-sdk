@@ -1,7 +1,7 @@
 {
-  "name": "@uniswap/router-sdk",
-  "version": "1.6.0",
-  "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
+  "name": "@hitesh.sharma_/router-sdk",
+  "version": "1.6.0-cdk-1",
+  "description": "An sdk for routing.",
   "publishConfig": {
     "access": "public"
   },
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/router-sdk.git"
+    "url": "https://github.com/hitesh-zeeve/router-sdk.git"
   },
   "keywords": [
     "uniswap",
@@ -27,10 +27,10 @@
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
-    "@uniswap/sdk-core": "^4",
+    "@hitesh.sharma_/sdk-core": "4.0.6-cdk-0",
     "@uniswap/swap-router-contracts": "1.1.0",
-    "@uniswap/v2-sdk": "^3.2.0",
-    "@uniswap/v3-sdk": "^3.10.0"
+    "@hitesh.sharma_/v2-sdk": "3.2.0-cdk-0",
+    "@hitesh.sharma_/v3-sdk": "3.10.0-cdk-2"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",

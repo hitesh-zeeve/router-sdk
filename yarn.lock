@@ -1114,6 +1114,43 @@
     "@ethersproject/properties" "^5.5.0"
     "@ethersproject/strings" "^5.5.0"
 
+"@hitesh.sharma_/sdk-core@4.0.6-cdk-0":
+  version "4.0.6-cdk-0"
+  resolved "https://registry.yarnpkg.com/@hitesh.sharma_/sdk-core/-/sdk-core-4.0.6-cdk-0.tgz#4679bee044ff02b38d520e352e69b05351eff8ed"
+  integrity sha512-j2zGXgyPSRgQueDTAL7aSbpGEgwhTZ5kyk+owlCKAUkyxzi2jzyuvt6o+43V2lakEL9YSv5I8i7c3CDTjLP21g==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@hitesh.sharma_/v2-sdk@3.2.0-cdk-0":
+  version "3.2.0-cdk-0"
+  resolved "https://registry.yarnpkg.com/@hitesh.sharma_/v2-sdk/-/v2-sdk-3.2.0-cdk-0.tgz#ecde5357d8bd1738e8b29009a3c666c61ee19d59"
+  integrity sha512-bSLLim323kta7rZbTkcGGEkiQuYULwNVapws0Cx0Rht5H/+Kz5Jg5Uf0bE2cJslIGABkHoMfAPpOsZJYwz8HUg==
+  dependencies:
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    "@hitesh.sharma_/sdk-core" "4.0.6-cdk-0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
+"@hitesh.sharma_/v3-sdk@3.10.0-cdk-2":
+  version "3.10.0-cdk-2"
+  resolved "https://registry.yarnpkg.com/@hitesh.sharma_/v3-sdk/-/v3-sdk-3.10.0-cdk-2.tgz#926e2f0948bd86bf69d9035d6500ae853aea17ae"
+  integrity sha512-Kdi7CVml7LotIw9I6rbL65a3gLhNnr/MYjZfiZD5tncFLYdWB+jMwQl6xSdjrfvb0FWMgbS226ItZxQVxyYmdg==
+  dependencies:
+    "@ethersproject/abi" "^5.0.12"
+    "@ethersproject/solidity" "^5.0.9"
+    "@hitesh.sharma_/sdk-core" "4.0.6-cdk-0"
+    "@uniswap/swap-router-contracts" "^1.2.1"
+    "@uniswap/v3-periphery" "^1.1.1"
+    "@uniswap/v3-staker" "1.0.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz"
@@ -1575,18 +1612,6 @@
   resolved "https://registry.npmjs.org/@uniswap/lib/-/lib-4.0.1-alpha.tgz"
   integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
 
-"@uniswap/sdk-core@^4", "@uniswap/sdk-core@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.0.2.tgz#2eca2b5bf00bad74519aef918465c19218285b4b"
-  integrity sha512-rR5xobsAAP4yMYC7C+0+duVx0pFoDn2lV9kTWpoKgH1WJuw7hD1uDEvuevU2dL89TuixVgGvnYd0QxmrMtsIlg==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
 "@uniswap/swap-router-contracts@1.1.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@uniswap/swap-router-contracts/-/swap-router-contracts-1.1.0.tgz"
@@ -1614,17 +1639,6 @@
   version "1.0.1"
   resolved "https://registry.npmjs.org/@uniswap/v2-core/-/v2-core-1.0.1.tgz"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
-
-"@uniswap/v2-sdk@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-sdk/-/v2-sdk-3.2.0.tgz#2b872cb83ac60ba66dc1d11acd7795b67ca8ceb1"
-  integrity sha512-kBOJ6Iwtgb/2LckLMIzfbPM37/ll0F+33lzPmZlqoJwsT0F2hZdVfAhclufZcSb0Y9RdLXl6372CZJ+lhx8cUQ==
-  dependencies:
-    "@ethersproject/address" "^5.0.0"
-    "@ethersproject/solidity" "^5.0.0"
-    "@uniswap/sdk-core" "^4.0.2"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 "@uniswap/v3-core@1.0.0":
   version "1.0.0"
@@ -1666,20 +1680,6 @@
     "@uniswap/v3-core" "1.0.0"
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
-
-"@uniswap/v3-sdk@^3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-sdk/-/v3-sdk-3.10.0.tgz#962c9e598250ced00702d944783c2d9ee3fa12f6"
-  integrity sha512-sbmSA1O+Ct960r66Ie/c1rOmVadpwRu8nQ79pGICv0pZJdnFIQ/SReG3F+iC2C2UNNjNP6aC2WDUggXrjyrgnA==
-  dependencies:
-    "@ethersproject/abi" "^5.0.12"
-    "@ethersproject/solidity" "^5.0.9"
-    "@uniswap/sdk-core" "^4"
-    "@uniswap/swap-router-contracts" "^1.2.1"
-    "@uniswap/v3-periphery" "^1.1.1"
-    "@uniswap/v3-staker" "1.0.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 "@uniswap/v3-staker@1.0.0":
   version "1.0.0"
